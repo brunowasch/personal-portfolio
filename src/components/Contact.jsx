@@ -39,12 +39,12 @@ function Contact() {
           </div>
           <div className="col-12 col-md-6">
             <a
-              href="https://www.linkedin.com/in/bruno-waschburger-silva-a401b3360"
+              href="https://www.linkedin.com/in/brunowasch"
               className="contact-link d-flex align-items-center gap-3 p-3 border rounded-pill shadow-sm text-decoration-none text-white bg-dark justify-content-center"
               target="_blank"
               style={{ width: '100%' }}
             >
-              <i className="bi bi-linkedin"></i>linkedin.com/in/bruno-waschburger-silva-a401b3360
+              <i className="bi bi-linkedin"></i>linkedin.com/in/brunowasch
             </a>
           </div>
         </div>
