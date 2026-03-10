@@ -16,8 +16,8 @@ function Contact() {
           {idiom === 'en' ? 'Contact' : 'Contato'}
         </h3>
 
-        <div className="row g-3">
-          <div className="contact-btn col-12 col-md-3">
+        <div className="row g-4">
+          <div className="contact-btn col-12 col-md-4">
             <a
               href="mailto:bwaschburger@gmail.com"
               className="contact-link d-flex align-items-center gap-3 p-3 border rounded-pill shadow-sm text-decoration-none text-white bg-dark justify-content-center"
@@ -27,7 +27,7 @@ function Contact() {
               <i className="bi bi-envelope"></i>bwaschburger@gmail.com
             </a>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-4">
             <a
               href="https://github.com/brunowasch"
               className="contact-link d-flex align-items-center gap-3 p-3 border rounded-pill shadow-sm text-decoration-none text-white bg-dark justify-content-center"
@@ -37,7 +37,7 @@ function Contact() {
               <i className="bi bi-github"></i>github.com/brunowasch
             </a>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-4">
             <a
               href="https://www.linkedin.com/in/brunowasch"
               className="contact-link d-flex align-items-center gap-3 p-3 border rounded-pill shadow-sm text-decoration-none text-white bg-dark justify-content-center"
