@@ -6,7 +6,7 @@ import HomeEN from './pages/HomeEN';
 
 function App() {
   return (
-    <Router basename="/portfolio-pessoal">
+    <Router basename="/personal-portfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePT />} />
