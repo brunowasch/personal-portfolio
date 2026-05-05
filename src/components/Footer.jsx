@@ -5,7 +5,7 @@ function Footer() {
   const idiom = useIdiom();
 
   return (
-    <footer className="text-center py-4 mt-5" style={{ backgroundColor: '#0e0e10' }}>
+    <footer className="text-center py-4" style={{ backgroundColor: '#0e0e10' }}>
       <div className="container text-white">
         <p>
           {idiom === 'en'

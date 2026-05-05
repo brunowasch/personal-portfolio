@@ -279,6 +279,10 @@ a:hover {
   animation-delay: 0.1s;
 }
 
+.section-padding {
+  padding-top: 8rem;
+}
+
 .inline-link {
   color: var(--text-primary);
   text-decoration: none;

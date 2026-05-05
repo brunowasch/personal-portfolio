@@ -16,10 +16,10 @@ function Hero() {
           <h2 className="text-primary fs-1 fw-bold title-font highlight-shadow">
             Bruno Waschburger Silva
           </h2>
-          <p className="fs-5">
+          <p className="fs-6">
             {idiom === 'en'
-              ? 'IT technician, Computer Science student, and web developer'
-              : 'Técnico em Informática, estudante de Ciência da Computação e desenvolvedor web'}
+              ? 'IT technician, Computer Science student, and full-stack developer.'
+              : 'Técnico em Informática, estudante de Ciência da Computação e desenvolvedor full-stack.'}
           </p>
           <AboutMe />
         </div>

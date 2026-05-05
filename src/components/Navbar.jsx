@@ -56,6 +56,12 @@ function Navbar() {
                   About me
                 </a>
                 <a
+                  className={`nav-link text-white mx-2 ${activeSection === 'Experience' ? 'active-section' : ''}`}
+                  href="#Experience"
+                >
+                  Experience
+                </a>
+                <a
                   className={`nav-link text-white mx-2 ${activeSection === 'Projects' ? 'active-section' : ''}`}
                   href="#Projects"
                 >
@@ -81,6 +87,12 @@ function Navbar() {
                   href="#AboutMe"
                 >
                   Sobre mim
+                </a>
+                <a
+                  className={`nav-link text-white mx-2 ${activeSection === 'Experience' ? 'active-section' : ''}`}
+                  href="#Experience"
+                >
+                  Experiência
                 </a>
                 <a
                   className={`nav-link text-white mx-2 ${activeSection === 'Projects' ? 'active-section' : ''}`}
