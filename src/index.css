@@ -279,6 +279,20 @@ a:hover {
   animation-delay: 0.1s;
 }
 
+.inline-link {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-muted);
+  transition: all var(--transition-fast);
+  padding-bottom: 1px;
+  font-weight: 500;
+}
+
+.inline-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

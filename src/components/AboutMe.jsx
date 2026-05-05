@@ -22,7 +22,7 @@ function AboutMe() {
           </p>
 
           <p className='text-justify'>
-            Winner of <a href="#Events" className="text-white text-decoration-underline">Hackatime 2024</a> with the project Up Connections — currently called <a href="#Projects" className="text-white text-decoration-underline">Connect Skills</a>. The project was also presented at the <a href="#Events" className="text-white text-decoration-underline">Taquara Summit</a> that same year and awarded at the <a href="#Events" className="text-white text-decoration-underline">16th FEINTEC</a> in 2025.
+            Winner of <a href="#Events" className="inline-link">Hackatime 2024</a> with the project Up Connections — currently called <a href="#Projects" className="inline-link">Connect Skills</a>. The project was also presented at the <a href="#Events" className="inline-link">Taquara Summit</a> that same year and awarded at the <a href="#Events" className="inline-link">16th FEINTEC</a> in 2025.
           </p>
         </>
       ) : (
@@ -31,7 +31,7 @@ function AboutMe() {
            Sou técnico em informática e estudante de Ciência da Computação, atualmente trabalhando na área de desenvolvimento web e de LLMs. Desenvolvo projetos com stacks modernas voltados às necessidades reais do mercado. Tenho interesse em aplicações que integrem inteligência artificial ao desenvolvimento full-stack para criar sistemas eficientes, inteligentes e práticos.
           </p>
           <p className='text-justify'>
-            Vencedor do <a href="#Events" className="text-white text-decoration-underline">Hackatime 2024</a> com o projeto Up Connections — atualmente denominado <a href="#Projects" className="text-white text-decoration-underline">Connect Skills</a>. O projeto também foi apresentado no <a href="#Events" className="text-white text-decoration-underline">Taquara Summit</a> do mesmo ano e premiado na <a href="#Events" className="text-white text-decoration-underline">16ª FEINTEC</a> em 2025.
+            Vencedor do <a href="#Events" className="inline-link">Hackatime 2024</a> com o projeto Up Connections — atualmente denominado <a href="#Projects" className="inline-link">Connect Skills</a>. O projeto também foi apresentado no <a href="#Events" className="inline-link">Taquara Summit</a> do mesmo ano e premiado na <a href="#Events" className="inline-link">16ª FEINTEC</a> em 2025.
           </p>
         </>
       )}
