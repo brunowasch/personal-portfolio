@@ -13,8 +13,8 @@ function ExperienceEducation() {
       typeEn: 'Full Time',
       periodPt: 'Abr 2026 - Atual',
       periodEn: 'Apr 2026 - Present',
-      descPt: 'Trabalho com automação de operações utilizando n8n e integração com grandes modelos de linguagem (LLMs). Desenvolvi e mantenho agentes de IA interativos, como um assistente que permite solicitar e receber informações e diagnósticos detalhados da rede em tempo real. Além disso, continuo atuando no desenvolvimento e na evolução das plataformas.',
-      descEn: 'I work with operations automation using n8n and integration with large language models (LLMs). I developed and maintain interactive AI agents, such as an assistant that allows requesting and receiving detailed information and network diagnostics in real time. In addition, I continue to work on the development and evolution of the platforms.'
+      descPt: 'Trabalho com automação de operações utilizando n8n e integração com grandes modelos de linguagem (LLMs). Desenvolvo e mantenho agentes de IA interativos, como um assistente que permite solicitar e receber informações e diagnósticos detalhados da rede em tempo real. Além disso, continuo atuando no desenvolvimento e na evolução de plataformas web.',
+      descEn: 'I work with operations automation using n8n and integration with large language models (LLMs). I develop and maintain interactive AI agents, such as an assistant that allows requesting and receiving detailed information and network diagnostics in real time. In addition, I continue to work on the development and evolution of web platforms.'
     },
     {
       rolePt: 'Desenvolvedor Full-Stack',
@@ -51,7 +51,7 @@ function ExperienceEducation() {
   ];
 
   return (
-    <section className="container px-3 px-md-4" id="Experience" style={{ scrollMarginTop: '100px', paddingTop: '15rem' }}>
+    <section className="container section-padding px-3 px-md-4" id="Experience" style={{ scrollMarginTop: '100px' }}>
       <div className="row g-5">
         {/* Experiência */}
         <div className="col-lg-7">

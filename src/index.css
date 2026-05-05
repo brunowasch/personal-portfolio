@@ -253,11 +253,42 @@ a:hover {
   padding: 8px;
 }
 
+@media (max-width: 768px) {
+  .hero-photo {
+    max-width: 200px;
+  }
+}
+
 .navbar {
   background-color: rgba(10, 10, 10, 0.8) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-color);
+}
+
+.navbar-toggler {
+  border: none !important;
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: var(--bg-primary);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
 }
 
 @keyframes fadeUp {
@@ -281,6 +312,12 @@ a:hover {
 
 .section-padding {
   padding-top: 8rem;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding-top: 4rem;
+  }
 }
 
 .inline-link {

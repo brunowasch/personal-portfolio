@@ -11,12 +11,13 @@ function Hero() {
       id="AboutMe"
       style={{ scrollMarginTop: '100px', paddingTop: '2rem' }}
     >
-      <div className="row align-items-center mt-5">
-        <div className="col-md-8 mt-5 mt-md-0">
+      <div className="row align-items-center mt-0 mt-md-5">
+        {/* Text Column */}
+        <div className="col-md-8 order-2 order-md-1 mt-4 mt-md-0">
           <h2 className="text-primary fs-1 fw-bold title-font highlight-shadow">
             Bruno Waschburger Silva
           </h2>
-          <p className="fs-6">
+          <p className="fs-6 mb-4">
             {idiom === 'en'
               ? 'IT technician, Computer Science student, and full-stack developer.'
               : 'Técnico em Informática, estudante de Ciência da Computação e desenvolvedor full-stack.'}
@@ -24,11 +25,12 @@ function Hero() {
           <AboutMe />
         </div>
 
-        <div className="col-md-4 d-flex justify-content-center align-items-center mt-4 mt-md-0 hero-photo-container">
+        {/* Photo Column */}
+        <div className="col-md-4 order-1 order-md-2 d-flex justify-content-center align-items-center hero-photo-container">
           <img
             src={portfolioPhoto}
             alt="Bruno Waschburger Silva"
-            className="img-fluid rounded-circle ms-md-5 hero-photo"
+            className="img-fluid rounded-circle ms-0 ms-md-5 hero-photo"
           />
         </div>
       </div>
