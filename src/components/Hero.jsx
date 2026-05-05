@@ -18,8 +18,8 @@ function Hero() {
           </h2>
           <p className="fs-5">
             {idiom === 'en'
-              ? 'Full-Stack Developer focused on creating reliable and user-centric web applications.'
-              : 'Desenvolvedor Full-Stack focado em criar aplicações web confiáveis e centradas no usuário.'}
+              ? 'IT technician, Computer Science student, and full-stack developer.'
+              : 'Técnico em Informática, estudante de Ciência da Computação e desenvolvedor full-stack.'}
           </p>
           <AboutMe />
         </div>

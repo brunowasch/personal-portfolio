@@ -18,34 +18,20 @@ function AboutMe() {
       {idiom === 'en' ? (
         <>
           <p className='text-justify'>
-            Student of the Technical Informatics program at Escola Técnica Estadual Monteiro Lobato (CIMOL) and an enthusiast of the web development world. I believe in the power of technology to turn ideas into practical solutions, creating digital experiences that are functional, intuitive, and accessible.
-          </p>
-
-          <p className='text-justify'>
-            Experience in both front-end and back-end development enables me to build complete, well-structured applications, with a particular appreciation for front-end technologies and the creation of intuitive user interfaces. I have a strong interest in databases — both relational (SQL) and non-relational (NoSQL) — and continuously explore their features to ensure organization, performance, and scalability.
+           I am an IT technician and a Computer Science student, currently working on web development and LLMs. I develop projects using modern tech stacks focused on real market needs. I am interested in applications that integrate artificial intelligence into full-stack development to create efficient, intelligent, and practical systems.
           </p>
 
           <p className='text-justify'>
             Winner of <a href="#Events" className="text-white text-decoration-underline">Hackatime 2024</a> with the project Up Connections — currently called <a href="#Projects" className="text-white text-decoration-underline">Connect Skills</a>. The project was also presented at the <a href="#Events" className="text-white text-decoration-underline">Taquara Summit</a> that same year and awarded at the <a href="#Events" className="text-white text-decoration-underline">16th FEINTEC</a> in 2025.
           </p>
-
-          <p className='text-justify'>
-            I am always seeking new learning opportunities, staying up to date with modern technologies, and continuously refining my system-development skills. For me, web development is a way to solve problems and drive innovation.
-          </p>
         </>
       ) : (
         <>
           <p className='text-justify'>
-            Sou estudante do Curso Técnico em Informática na Escola Técnica Estadual Monteiro Lobato (CIMOL) e entusiasta do desenvolvimento web. Acredito no poder da tecnologia para transformar ideias em soluções práticas, criando experiências digitais funcionais, intuitivas e acessíveis.
-          </p>
-          <p className='text-justify'>
-            Tenho experiência em front-end e back-end, o que me permite construir aplicações completas e bem estruturadas, com apreço especial por tecnologias de front-end e pela criação de interfaces de usuário intuitivas. Possuo grande interesse em bancos de dados — tanto relacionais (SQL) quanto não relacionais (NoSQL) — e exploro suas funcionalidades para garantir organização, desempenho e escalabilidade.
+           Sou técnico em informática e estudante de Ciência da Computação, atualmente trabalhando na área de desenvolvimento web e de LLMs. Desenvolvo projetos com stacks modernas voltados às necessidades reais do mercado. Tenho interesse em aplicações que integrem inteligência artificial ao desenvolvimento full-stack para criar sistemas eficientes, inteligentes e práticos.
           </p>
           <p className='text-justify'>
             Vencedor do <a href="#Events" className="text-white text-decoration-underline">Hackatime 2024</a> com o projeto Up Connections — atualmente denominado <a href="#Projects" className="text-white text-decoration-underline">Connect Skills</a>. O projeto também foi apresentado no <a href="#Events" className="text-white text-decoration-underline">Taquara Summit</a> do mesmo ano e premiado na <a href="#Events" className="text-white text-decoration-underline">16ª FEINTEC</a> em 2025.
-          </p>
-          <p className='text-justify'>
-            Estou constantemente em busca de novos aprendizados, acompanhando tecnologias modernas e aprimorando minhas habilidades em desenvolvimento de sistemas. Vejo o desenvolvimento web como uma forma de solucionar problemas e impulsionar a inovação.
           </p>
         </>
       )}

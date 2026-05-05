@@ -31,18 +31,22 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar navbar-dark fixed-top mb-5" style={{ backgroundColor: '#0e0e10' }}>
+    <nav className="navbar navbar-dark fixed-top" style={{ backgroundColor: '#0e0e10' }}>
       <div className="container-fluid py-3">
-        <div className="row w-100 text-center text-md-start align-items-center">
-          <div className="col-md-4 mb-2 mb-md-0">
-            <h4 className="m-0 text-white fs-6 fs-md-4" style={{ wordBreak: 'break-word' }}>
+        
+        <div className="d-flex justify-content-between align-items-center w-100 flex-wrap">
+          
+          {/* Título */}
+          <div className="me-3" style={{ minWidth: 0 }}>
+            <h4 className="m-0 text-white fs-6 fs-md-5 text-truncate">
               {idiom === 'en'
                 ? 'Bruno Waschburger Silva | Personal portfolio'
                 : 'Bruno Waschburger Silva | Portfólio pessoal'}
             </h4>
           </div>
 
-          <div className="col-md-4 d-flex justify-content-center flex-wrap mt-2 mt-md-0">
+          {/* Links */}
+          <div className="d-flex justify-content-center flex-wrap">
             {idiom === 'en' ? (
               <>
                 <a
@@ -100,11 +104,14 @@ function Navbar() {
             )}
           </div>
 
-          <div className="col-md-4 text-md-end mt-2 mt-md-0">
+          {/* Idiomas */}
+          <div className="ms-3 text-nowrap">
             <Link to="/pt" className="idiom-link text-white me-3">BR Português</Link>
-            <Link to="/en" className="idiom-link text-white me-3">US English</Link>
+            <Link to="/en" className="idiom-link text-white">US English</Link>
           </div>
+
         </div>
+
       </div>
     </nav>
   );
