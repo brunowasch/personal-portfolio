@@ -31,7 +31,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar navbar-dark fixed-top" style={{ backgroundColor: '#0e0e10' }}>
+    <nav className="navbar navbar-dark fixed-top">
       <div className="container-fluid py-3">
         
         <div className="d-flex justify-content-between align-items-center w-100 flex-wrap">
